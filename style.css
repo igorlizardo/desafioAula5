@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+
+}
+
+header{
+    background-color: #303030;
+    min-width: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.logo{
+    position: absolute;
+    width: 157px;
+    height: 115px;
+}
+
+
+.title{
+    position: absolute;
+    width: 163px;
+    height: 56px;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#ladoD{
+    position: static;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+#ladoE{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: white;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.mulherMoto{
+    position: absolute;
+    width: 641px;
+    height: 427px;
+    left: 65px;
+    top: 342px;
+}
+
+#ladoD{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: white;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
